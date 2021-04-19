@@ -98,8 +98,6 @@ class level4 extends Level {
             g.setFont(new Font("Serif", Font.BOLD, 40));
             g.setColor(Color.red);
             g.drawString("Thank you !!", 250, 200);
-            g.setFont(new Font("Serif", Font.BOLD, 30));
-            g.drawString("Hope you will be for doing your bit for the environment", 40, 270);
         }
         g.dispose();
         Thread.sleep(500);
